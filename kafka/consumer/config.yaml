@@ -1,0 +1,7 @@
+Name: kq
+Brokers:
+- kafka.chenkaiwei.com:9092
+Group: adhoc
+Topic: kq
+Offset: first
+Consumers: 1
