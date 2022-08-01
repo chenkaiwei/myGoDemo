@@ -13,7 +13,7 @@ ADD go.mod .
 ADD go.sum .
 RUN go mod download
 COPY . .
-RUN go build -ldflags="-s -w" -o /app/server myDemo/docker-network/server/server.go
+RUN go build -ldflags="-s -w" -o /app/server docker-network/server/server.go
 
 
 FROM scratch
