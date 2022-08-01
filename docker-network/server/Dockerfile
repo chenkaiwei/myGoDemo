@@ -27,4 +27,4 @@ COPY --from=builder /app/server /app/server
 
 CMD ["./server"]
 
-# hooker push test 1
+# hooker push test --2,改为 secret text 后
