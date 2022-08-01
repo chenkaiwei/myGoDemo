@@ -27,4 +27,4 @@ COPY --from=builder /app/server /app/server
 
 CMD ["./server"]
 
-# hooker push test --2,改为 secret text 后
+# hooker push test --3,改为 secret text 后，且取消 go tool 勾选
