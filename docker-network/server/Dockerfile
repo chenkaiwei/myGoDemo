@@ -27,6 +27,6 @@ COPY --from=builder /app/server /app/server
 
 CMD ["./server"]
 
-# hooker push test --7,改为 secret text 后，且取消 go tool 勾选，且content type - 改成json那个
+# hooker push test --11,改为 secret text 后，且取消 go tool 勾选，且content type - 改成json那个
 #且http://dev.chenkaiwei.com:8081/github-webhook/ 最后加上/
 
